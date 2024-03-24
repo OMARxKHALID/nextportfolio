@@ -44,7 +44,7 @@ export const profileInfo = [
   {
     id: 2,
     title: "Fiverr",
-    desctiption: "Currently working as a freelancer",
+    desctiption: "Working as a freelancer",
   },
 ];
 
