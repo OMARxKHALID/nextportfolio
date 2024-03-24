@@ -3,8 +3,8 @@
 import Image from "next/image";
 import styles from "./Header.module.sass";
 import cn from "classnames";
-import avatar from "@/images/avatar.png";
-import resume from "@/files/resume.pdf";
+import avatar from "@/public/images/avatar.png";
+import resume from "@/public/files/resume.pdf";
 
 const Header = ({ socialData, profileInfo }) => {
   return (

@@ -1,9 +1,9 @@
 "use client";
 
 import Main from "./Main";
-import InstagramClonePreview from "@/images/projects/InstagramClonePreview.png";
-import PizzaWebAppPreview from "@/public/images/projects/PizzaWebAppPreview.png";
-import ThreadsClonePreview from "@/public/images/projects/ThreadsClonePreview.png";
+import InstagramClonePreview from "@/public//images/projects/InstagramClonePreview.png";
+import PizzaWebAppPreview from "@/public//images/projects/PizzaWebAppPreview.png";
+import ThreadsClonePreview from "@/public//images/projects/ThreadsClonePreview.png";
 
 export const projectData = [
   {
