@@ -1,9 +1,7 @@
-"use client";
-
 import Main from "./Main";
-import InstagramClonePreview from "@/public//images/projects/InstagramClonePreview.png";
-import PizzaWebAppPreview from "@/public//images/projects/PizzaWebAppPreview.png";
-import ThreadsClonePreview from "@/public//images/projects/ThreadsClonePreview.png";
+import InstagramClonePreview from "@/public/images/projects/InstagramClonePreview.png";
+import PizzaWebAppPreview from "@/public/images/projects/PizzaWebAppPreview.png";
+import ThreadsClonePreview from "@/public/images/projects/ThreadsClonePreview.png";
 
 export const projectData = [
   {
@@ -42,22 +40,22 @@ export const skillsDataFrontEnd = [
   },
   {
     id: 1,
-    skill: "CSS3",
+    skill: "CSS4",
     icon: "ri-css3-line",
   },
   {
     id: 2,
+    skill: "Tailwind CSS",
+    icon: "ri-tailwind-css-line",
+  },
+  {
+    id: 3,
     skill: "JavaScript",
     icon: "ri-braces-line",
   },
   {
-    id: 3,
-    skill: "ReactJS",
-    icon: "ri-reactjs-line",
-  },
-  {
     id: 4,
-    skill: "Redux/Zustand",
+    skill: "ReactJS",
     icon: "ri-reactjs-line",
   },
   {
@@ -67,6 +65,16 @@ export const skillsDataFrontEnd = [
   },
   {
     id: 6,
+    skill: "Redux/Zustand",
+    icon: "ri-reactjs-line",
+  },
+  {
+    id: 7,
+    skill: "PHP",
+    icon: "ri-archive-drawer-line",
+  },
+  {
+    id: 8,
     skill: "Git",
     icon: "ri-git-branch-line",
   },
@@ -84,7 +92,12 @@ export const skillsDataBackEnd = [
     icon: "ri-fire-line",
   },
   {
-    id: 1,
+    id: 2,
+    skill: "Mongodb",
+    icon: "ri-database-2-line",
+  },
+  {
+    id: 3,
     skill: "SQL",
     icon: "ri-database-line",
   },
