@@ -36,7 +36,7 @@ export const profileInfo = [
   },
   {
     id: 1,
-    title: 3,
+    title: "10+",
     desctiption: "Completed personal projects",
   },
   {

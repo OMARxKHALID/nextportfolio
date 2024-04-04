@@ -2,10 +2,20 @@ import Main from "./Main";
 import InstagramClonePreview from "@/public/images/projects/InstagramClonePreview.png";
 import PizzaWebAppPreview from "@/public/images/projects/PizzaWebAppPreview.png";
 import ThreadsClonePreview from "@/public/images/projects/ThreadsClonePreview.png";
+import NextVotePreview from "@/public/images/projects/NextVotePreview.png";
 
 export const projectData = [
   {
     id: 0,
+    img: NextVotePreview,
+    imgAlt: "Next Vote App",
+    title: "Next Vote App",
+    subtitle:
+      "NEXTJS Next Vote App  | MOGNODB && REACT-HOOK-FORM && ZOD && TANSTACK REACT-QUERY && TAILWIND CSS && SHADCN UI",
+    projectLink: "https://nextjsxvote.vercel.app/",
+  },
+  {
+    id: 1,
     img: ThreadsClonePreview,
     imgAlt: "MERN Stack Threads Clone",
     title: "MERN Stack Threads Clone",
@@ -14,7 +24,7 @@ export const projectData = [
     projectLink: "https://reactthreadsclone.onrender.com/",
   },
   {
-    id: 1,
+    id: 2,
     img: InstagramClonePreview,
     imgAlt: "Instagram Clone",
     title: "Instagram Clone",
@@ -22,7 +32,7 @@ export const projectData = [
     projectLink: "https://reactjsinstagramclone.vercel.app",
   },
   {
-    id: 2,
+    id: 3,
     img: PizzaWebAppPreview,
     imgAlt: "Pizza App",
     title: "MERN Stack Pizza App",
@@ -65,7 +75,7 @@ export const skillsDataFrontEnd = [
   },
   {
     id: 6,
-    skill: "Redux/Zustand",
+    skill: "Redux/Zustand/Tanstack-react-query",
     icon: "ri-reactjs-line",
   },
   {
