@@ -3,19 +3,29 @@ import InstagramClonePreview from "@/public/images/projects/InstagramClonePrevie
 import PizzaWebAppPreview from "@/public/images/projects/PizzaWebAppPreview.png";
 import ThreadsClonePreview from "@/public/images/projects/ThreadsClonePreview.png";
 import NextVotePreview from "@/public/images/projects/NextVotePreview.png";
+import POSifyPreview from "@/public/images/projects/POSifyPreview.png";
 
 export const projectData = [
   {
     id: 0,
+    img: POSifyPreview,
+    imgAlt: "POSify SaaS Platform",
+    title: "POSify SaaS Platform",
+    subtitle:
+      "Next.js POS SaaS Platform | Multi-Tenant Architecture && NextAuth.js && MongoDB && TanStack Query && Zustand && Tailwind CSS",
+    projectLink: "https://posify-beta.vercel.app/",
+  },
+  {
+    id: 1,
     img: NextVotePreview,
     imgAlt: "Next Vote App",
     title: "Next Vote App",
     subtitle:
-      "NEXTJS Next Vote App  | MOGNODB && REACT-HOOK-FORM && ZOD && TANSTACK REACT-QUERY && TAILWIND CSS && SHADCN UI",
+      "NEXTJS Next Vote App | MONGODB && REACT-HOOK-FORM && ZOD && TANSTACK REACT-QUERY && TAILWIND CSS && SHADCN UI",
     projectLink: "https://nextjsxvote.vercel.app/",
   },
   {
-    id: 1,
+    id: 2,
     img: ThreadsClonePreview,
     imgAlt: "MERN Stack Threads Clone",
     title: "MERN Stack Threads Clone",
@@ -24,20 +34,20 @@ export const projectData = [
     projectLink: "https://reactthreadsclone.onrender.com/",
   },
   {
-    id: 2,
+    id: 3,
     img: InstagramClonePreview,
     imgAlt: "Instagram Clone",
     title: "Instagram Clone",
-    subtitle: "Instagram Clone | Firebase && JWT && Redux && Tailwind Css",
+    subtitle: "Instagram Clone | Firebase && JWT && Redux && Tailwind CSS",
     projectLink: "https://reactjsinstagramclone.vercel.app",
   },
   {
-    id: 3,
+    id: 4,
     img: PizzaWebAppPreview,
     imgAlt: "Pizza App",
     title: "MERN Stack Pizza App",
     subtitle:
-      "MERN Pizza E-Commerece Web App | REDUX && TAILWIND CSS && Geolocation API",
+      "MERN Pizza E-Commerce Web App | REDUX && TAILWIND CSS && Geolocation API",
     projectLink: "https://react-pizza-ctup.onrender.com/",
   },
 ];
