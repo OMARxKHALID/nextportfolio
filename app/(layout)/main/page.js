@@ -5,6 +5,7 @@ import ThreadsClonePreview from "@/public/images/projects/ThreadsClonePreview.pn
 import NextVotePreview from "@/public/images/projects/NextVotePreview.png";
 import POSifyPreview from "@/public/images/projects/POSifyPreview.png";
 import BarakahPreview from "@/public/images/projects/BarakahPreview.png";
+import BrillairePreview from "@/public/images/projects/BrillairePreview.png";
 
 export const projectData = [
   {
@@ -27,6 +28,15 @@ export const projectData = [
   },
   {
     id: 2,
+    img: BrillairePreview,
+    imgAlt: "Brillaire Jewelry E-commerce Website",
+    title: "Brillaire Jewelry E-commerce Website",
+    subtitle:
+      "Brillaire — A Luxury Jewelry Brand | Next.js E-commerce Platform | Tailwind CSS && Responsive Design && Product Showcase && Smooth Checkout Experience",
+    projectLink: "https://brillaire.vercel.app/",
+  },
+  {
+    id: 3,
     img: NextVotePreview,
     imgAlt: "Next Vote App",
     title: "Next Vote App",
@@ -35,7 +45,7 @@ export const projectData = [
     projectLink: "https://nextjsxvote.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     img: ThreadsClonePreview,
     imgAlt: "MERN Stack Threads Clone",
     title: "MERN Stack Threads Clone",
@@ -44,7 +54,7 @@ export const projectData = [
     projectLink: "https://reactthreadsclone.onrender.com/",
   },
   {
-    id: 4,
+    id: 5,
     img: InstagramClonePreview,
     imgAlt: "Instagram Clone",
     title: "Instagram Clone",
@@ -52,7 +62,7 @@ export const projectData = [
     projectLink: "https://reactjsinstagramclone.vercel.app",
   },
   {
-    id: 5,
+    id: 6,
     img: PizzaWebAppPreview,
     imgAlt: "Pizza App",
     title: "MERN Stack Pizza App",
