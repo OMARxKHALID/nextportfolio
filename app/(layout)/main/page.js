@@ -6,7 +6,7 @@ import NextVotePreview from "@/public/images/projects/NextVotePreview.png";
 import POSifyPreview from "@/public/images/projects/POSifyPreview.png";
 import BarakahPreview from "@/public/images/projects/BarakahPreview.png";
 import BrillairePreview from "@/public/images/projects/BrillairePreview.png";
-import ModaVePreview from "@/public/images/projects/ModaVePreview.png";
+import ModavePreview from "@/public/images/projects/ModavePreview.png";
 
 export const projectData = [
   {
@@ -38,7 +38,7 @@ export const projectData = [
   },
   {
     id: 3,
-    img: ModaVePreview,
+    img: ModavePreview,
     imgAlt: "ModaVe Fashion E-commerce Website",
     title: "ModaVe Fashion E-commerce Website",
     subtitle:
